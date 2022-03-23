@@ -28,7 +28,7 @@ pipeline{
 
         		sh '''
 
-        	   	oc project ehlflq-greetings
+        	   	oc project ehlflq-jenkins
 
         	    	oc start-build greeting-console  --follow --wait
 
